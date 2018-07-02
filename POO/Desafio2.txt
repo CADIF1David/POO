@@ -1,0 +1,110 @@
+///////OBJETIVO 1////////////
+
+Banco{
+	Empleados
+	Estructura o edificio
+	Sistema Bancario (Software)
+	Equipos electronicos
+	Dinero
+	Director
+	Permisos
+	Creditos
+	Cuentas
+	Seguridad
+	Seguridad (software)
+	TDC
+	TDD
+	Libretas
+	Chequeras
+	Papeleria basica
+}
+
+
+///////////OBJETIVO 2///////////////////////
+
+Clase Banco{
+	Atributos:
+		Nombre(Alfanumerico)
+		Direccion(Alfanumerico)
+		Rif(Alfanumerico)
+		Cuentas_Registradas(Entero)
+		Creditos_Realizados(Entero)
+		Saldo(Real)
+		Moneda(Alfanumerico)
+		Pago_Facil(Logico)
+		Moneda_Extranjera(Logico)
+		Nro_Empleados(Entero)
+		Comisiones(Real)
+		Deuda_Clientes(Real)
+	Metodos:
+		//El Objetivo no pide metodos :P
+}
+
+//////////OBJETIVO 3-4///////////////
+
+Clase Persona{
+	Atributos:
+		Nombre
+		Edad
+		Sexo
+		Telefono
+		Direccion
+		Cedula
+	Metodos:
+		Respirar
+		Comer
+		Defecar
+		Procrear
+}
+
+Clase Cuenta{
+	Atributos:
+		Tipo:
+		Numero
+		Saldo_Apertura
+		Propietario
+	Metodos:
+		Abonar
+		Descontar
+}
+
+Clase Credito{
+	Atributos:
+		Plazo
+		Monto
+		Cuota
+		Fecha
+	Metodos:
+		Generar
+		Cancelar
+}
+
+Clase Banco{
+	Atributos:
+		Empleados->Persona
+		Prestamos->Credito
+		Cuentas->Cuenta
+		Coleccion_de_Papeleria
+	Metodos:
+		
+}
+
+////////Objetivo 5///////////////
+Clase Personal hereda de Persona{
+	Atributos:
+		Cargo
+		Fecha_Ingreso
+		Sueldo
+	Metodo:
+		Cobrar
+		Vacacionar
+		Trabajar
+}
+
+Clase Deuda hereda de Credito
+	Atributo:
+		Pendiente
+		
+	Metodo
+		Descuento
+}
