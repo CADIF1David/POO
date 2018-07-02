@@ -1,4 +1,17 @@
-header{
+
+footer h2{
+	color: gray;
+	display: inline-block;
+}
+footer{
+	background-color: rgb(104,114,106);
+	margin-bottom: 0;
+	margin-top: 0;
+	height: 50px;
+	width: 1080px;
+	text-align: center;
+	padding: 10px;
+}header{
 	width: 1080px;
 	height: 300px;
 	background-image: url("2018.1_release-homepage-tile-1920x600.jpg");
